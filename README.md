@@ -5,15 +5,15 @@ A decision-grade statistical audit, exploratory analysis, predictive modeling ev
 ## Repository Structure
 
 ```text
-├── data/
-│   └── ecommerce_customer_behavior_dataset.xlsx   # Place original dataset here (gitignored)
-├── outputs/
-│   ├── tables/                                    # Auto-generated CSV summary tables (26 tables)
-│   └── figures/                                   # Auto-generated PNG visualizations (22 charts)
-├── ecommerce_customer_behavior_analysis.ipynb     # Main executable Jupyter Notebook
-├── requirements.txt                               # Pinned Python dependencies
-├── .gitignore                                     # Standard Python/Jupyter/data ignore rules
-└── README.md                                      # Project documentation & execution guide
+├── lib/
+│   └── ecommerce_customer_behavior_dataset.csv      # original dataset
+├── docs/
+│   └── Analisis E-Commerce Türkiye.pdf              # Pdf report of the analysis
+├── src/
+│   └── ecommerce_customer_behavior_analysis.ipynb   # Main executable Jupyter Notebook
+├── requirements.txt                                 # Pinned Python dependencies
+├── .gitignore                                       # Standard Python/Jupyter/data ignore rules
+└── README.md                                        # Project documentation & execution guide
 ```
 
 ---

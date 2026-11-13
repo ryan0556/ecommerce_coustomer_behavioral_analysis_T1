@@ -30,16 +30,15 @@ A decision-grade statistical audit, exploratory analysis, predictive modeling ev
    ```
 
 2. **Add the dataset:**
-   Place the unmodified `ecommerce_customer_behavior_dataset.xlsx` file inside the `data/` directory (or in the project root).  
+   Place the unmodified `ecommerce_customer_behavior_dataset.csv` file inside the `data/` directory (or in the project root).  
    *(Optional)* You can override default paths using environment variables:
    - `ECOM_DATA_DIR` (default: `data/`)
-   - `ECOM_DATA_FILE` (default: `ecommerce_customer_behavior_dataset.xlsx`)
+   - `ECOM_DATA_FILE` (default: `ecommerce_customer_behavior_dataset.csv`)
    - `ECOM_OUTPUT_DIR` (default: `outputs/`)
 
 3. **Run the notebook:**
    Open `ecommerce_customer_behavior_analysis.ipynb` in JupyterLab, VS Code, or Google Colab and execute **Run All**.  
    - The notebook enforces a SHA-256 checksum (`c94e0930eaf59562daf6da3a4dd1dc04b0632d0384a377185ea8f3e46fbfb959`) and schema verification (`5,000 rows × 18 columns`, sheet `CustBehavior`) before running.
-   - All analytical tables (`outputs/tables/*.csv`) and high-resolution charts (`outputs/figures/*.png`) are exported automatically.
 
 ---
 
